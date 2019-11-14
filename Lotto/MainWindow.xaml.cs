@@ -14,7 +14,7 @@ namespace Lotto
         {
 
             textBox1.Clear();
-            //textBox2.Clear();
+            textBox2.Clear();
 
             Random rnd = new Random();
             List<int> myList = new List<int>();
