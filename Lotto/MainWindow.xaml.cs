@@ -13,8 +13,8 @@ namespace Lotto
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            //textBox1.Clear();
-            //textBox2.Clear();
+            textBox1.Clear();
+            textBox2.Clear();
 
             Random rnd = new Random();
             List<int> myList = new List<int>();
